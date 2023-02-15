@@ -1,0 +1,10 @@
+x = int(input("give me a  number:"))
+y = float(input("give me decimal number:"))
+print(float(x))
+print(int(y))
+print("när man conventerar int till float, kommer den byte heltal till decimal tal/komma tecken och en nolla/, om man gör det tvärtom, kommer det byta decimal till heltal")
+import math
+print(math.ceil(x))
+print(math.floor(x))
+print(math.ceil(y))
+print(math.floor(y))
